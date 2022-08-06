@@ -142,3 +142,104 @@ padding: 5rem;
     background: rgb(57, 185, 57);
 }
 /* SCHEDULER */
+/* ABEL */
+::after,
+ ::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+  .body-container{
+     display: grid;
+     justify-content: center;
+     font-family: 'Poppins', sans-serif;
+ } 
+ h2{
+   text-align: center;
+   color: #870052;
+ }
+ .first-container{
+   position: relative;
+   margin-top: 5rem;
+    /* border: 2px solid red;  */
+ }
+ .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+ .center div{
+   width: 25px;
+   height: 18px;
+   margin: 0 0.5rem;
+   margin-top: 3rem;
+   background-color: #870052;
+   border-radius: 2px;
+   text-align: center;
+   color: #fff;
+ }
+ .resend{
+   text-align: center;
+ }
+ .button{
+   display: flex;
+   justify-content: center;
+   margin: 10rem auto;
+   border: none;
+   padding: 0.5rem 2rem;
+   border-radius: 5px;
+   color: #fff;
+   font-weight: bold;
+   font-size: 1rem;
+   background-color: #870052;
+ }
+ .fa-arrow-right-long{
+   margin-left: 0.5rem;
+ }
+ .fa-angle-left{
+   margin-bottom: -4rem;
+   color: #870052;
+    position: absolute;
+    left: 25px;
+    font-size: 1.6rem
+ }
+
+ /* cash-html starts here */
+ .cash-container{
+   display: grid;
+   align-items: center;
+   justify-content: center;
+    max-height: 100vh;
+    grid-template-rows: 20%fr 80%;
+    position: relative;
+   
+ }
+ .btn-container{
+   max-width: 100%;
+   height: 80vh;
+   background-color: #870052;
+    margin-top: 1rem; 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border-top-left-radius: 5px;
+   border-top-right-radius: 5px;
+ } 
+ .atm{
+   max-width: 100%;
+ }
+ .ahmed{
+  text-align: center;
+  color: #870052;
+  text-transform: capitalize;
+ }
+ .cash-button{
+   padding: 10px 15px;
+   border-radius: 5px;
+   border: none;
+   margin: 2rem;
+ } 
+
+/* ABEL */
