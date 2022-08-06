@@ -66,7 +66,7 @@ padding: 5rem;
     background: #fff;
     padding: 0.8rem;
     border-radius: 0.5rem;
-    display: grid;
+    display: flex;
     text-align: center;
     justify-content: center;
     align-self: center;
@@ -91,6 +91,7 @@ padding: 5rem;
     outline: none;
     border-radius: 0.5rem;
     border: none;
+    padding: 0.2rem;
 }
 .input-container div{
     padding: 1rem;
@@ -101,6 +102,7 @@ padding: 5rem;
     outline: none;
     border-radius: 0.4rem;
     border: none;
+    padding: 0.2rem;
 }
 .btn2{
     margin-left: 32%;
@@ -109,4 +111,9 @@ padding: 5rem;
 }
 .container-2-border{
     border-radius: 0rem;
+}
+.fa-chevron-right{
+    font-size: 0.8rem;
+    display: inline-block;
+    margin-left: 0.3rem;
 }
