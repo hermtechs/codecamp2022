@@ -76,3 +76,37 @@ padding: 5rem;
     margin-left: 10%; 
     font-weight: bold;
 }
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:#fff;
+    justify-items: center;
+    margin-top: 2rem;
+}
+.input-container .input-1 input{
+    height: 2.4rem;
+    width: 250px;
+    outline: none;
+    border-radius: 0.5rem;
+    border: none;
+}
+.input-container div{
+    padding: 1rem;
+}
+.input-container .input-2 input{
+    height: 2.4rem;
+    width: 250px;
+    outline: none;
+    border-radius: 0.4rem;
+    border: none;
+}
+.btn2{
+    margin-left: 32%;
+    padding: 0.5rem;
+    margin-top: 1.5rem;
+}
+.container-2-border{
+    border-radius: 0rem;
+}
