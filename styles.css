@@ -117,3 +117,28 @@ padding: 5rem;
     display: inline-block;
     margin-left: 0.3rem;
 }
+/* SCHEDULER */
+.delivery-img-container{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+    }
+ .delivery-img{
+    max-width: 100%;
+    width: 300px;
+  margin-left: 2.5rem;
+
+}
+
+.ask-qn .cancel-btn{
+    display: unset;
+    background: #964148;
+    color: #fff;
+    margin-top: 3rem;
+    width: 260PX;
+}
+.ask-qn .change{
+    background: rgb(57, 185, 57);
+}
+/* SCHEDULER */
